@@ -1,0 +1,146 @@
+
+
+/* #Media Queries
+================================================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.logo {
+    width: 24%;
+}
+.oneslide img {
+    height: 550px;
+}
+#videoimage  {
+    min-height: 450px;
+}
+#videoimage iframe{height:450px;}
+.imagecoloroverlay {
+    margin: 150px auto 0;
+}
+.team figure{margin-bottom:20px;}
+.img1 {
+    width: 25%;
+}
+.socials a i {
+    margin-bottom: 10px;
+}
+
+.bx-wrapper .bx-prev {
+    left: 25%;
+}
+.bx-wrapper .bx-next {
+    right: 21%;
+}
+footer a.arrowsub {
+    width: 50px;
+}
+footer input {
+    width: 150px;
+}
+	}
+
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+.nav-collapse li {
+    text-align: center;
+}
+.backcolor{background: #30235f;}
+.slidecon h2 {
+    font-size: 23px;
+    line-height: 34px;
+}
+.oneslide img {
+    height: 600px;
+}
+
+.slidecon {
+    top: 20%;
+}
+#story img{margin:0 auto 20px; display:block;}
+article {
+    padding: 30px 0;
+}
+article p {
+    margin-bottom: 15px;
+}
+#videoimage  {
+    min-height: 400px;
+}
+#videoimage iframe{height:400px;}
+.imagecoloroverlay {
+    margin: 130px auto 0;
+}
+#expertise {
+    padding: 30px 0;
+}
+#expertise span.line {
+    margin: 20px auto 0px;
+}
+#expertise .col-lg-4 {
+    border-right: 0;
+     border-bottom: 0;
+}
+#expertise p {
+    margin-bottom: 10px;
+}
+.team {
+    padding: 40px 0;
+}
+.team figure{margin-bottom:20px;}
+p.btm {
+    padding: 30px 0 25px;
+}
+.work h2 {
+    text-align: center;
+}
+.work a {
+    text-align: center;
+}  
+.work {
+    padding: 30px 0;
+}
+.load {
+    padding: 30px 0;
+}
+.img1 {
+    width: 100%;
+}
+.bx-wrapper .bx-controls-direction a {
+    top: 125%;
+}
+.contact {
+    padding: 30px 0;
+}
+.contact a.submit {
+    margin-bottom: 20px;
+}
+.contact img{width:100%; display:block;}
+footer ul li {
+    margin-right: 10px;
+}
+p.makeright {
+    text-align: center;
+	padding:5px 0;
+}
+footer {
+    padding: 40px 0;
+}
+header.sticky {
+    padding: 10px 0;
+}
+		}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	
+		}
+

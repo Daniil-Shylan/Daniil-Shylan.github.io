@@ -1,0 +1,639 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li, label, article, footer, header, menu, nav
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body
+{
+	line-height: 1;
+}
+
+ol, ul
+{
+	list-style: none;
+}
+
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix
+{
+	display: inline-block;
+}
+
+body
+{
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 300;
+	color: #333333;
+	letter-spacing: 0.5px;
+}
+
+h2, h3, h4
+{
+	font-weight: 700;
+}
+
+header
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 15px 0;
+	width: 100%;
+	z-index: 9997;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+header
+{
+	position: fixed;
+	width: 100%;
+	background: #30235f;
+	padding: 20px 0;
+}
+
+.logo
+{
+	width: 30%;
+	float: left;
+}
+
+.logo h1 a img
+{
+	display: block;
+}
+
+nav
+{
+	width: 70%;
+	float: left;
+	text-align: right;
+	margin-top: 10px;
+}
+
+.search
+{
+	width: 5%;
+	float: right;
+	position: absolute;
+	right: 0;
+}
+
+nav ul li
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px 12px;
+}
+
+nav ul li a
+{
+	font-size: 13px;
+	line-height: 24px;
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+}
+
+nav ul li a:hover
+{
+	color: #00e0d0;
+	transition: all 0.5s;
+}
+
+.slide img
+{
+	width: 100%;
+	display: block;
+	position: relative;
+	height: 670px;
+}
+
+.slidecon
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 40%;
+	text-align: center;
+}
+
+.slidecon p
+{
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+}
+
+.slidecon h2
+{
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: 700;
+	letter-spacing: 0.10px;
+	color: #fff;
+}
+
+.slidecon span.line
+{
+	width: 50px;
+	height: 1px;
+	background: #00e0d0;
+	display: inline-block;
+	margin:20px auto;
+}
+
+.slidecon a
+{
+	width: 120px;
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+	display: block;
+	margin: 40px auto;
+	padding: 8px 0;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+.slidecon a:hover
+{
+	background: #fff;
+	color: #000;
+	border: 1px solid #fff;
+	transition: all 0.4s;
+}
+
+article
+{
+	background: #fff;
+	padding: 70px 0;
+}
+
+article h3
+{
+	font-size: 22px;
+	color: #413d4b;
+	margin-bottom: 15px;
+}
+
+article p
+{
+	margin-bottom: 25px;
+	color: #413d4b;
+}
+
+article a
+{
+	width: 120px;
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+	display: block;
+	text-align: center;
+	padding: 8px 0;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+article a:hover
+{
+	background: #00e0d0;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: all 0.5s;
+}
+
+#videoimage
+{
+	background: url(../images/bg_video.jpg) no-repeat center center;
+	display: block;
+	background-size: cover;
+	min-height: 550px;
+	text-align: center;
+}
+
+#videoimage iframe
+{
+	width: 100%;
+	height: 550px;
+	float: left;
+	display: block;
+}
+
+.video_play
+{
+	margin: 200px auto 0;
+}
+
+.video_play a
+{
+	cursor: pointer;
+	display: block;
+	margin: 0 auto 20px;
+}
+
+.video_play p
+{
+	color: #fff;
+	font-weight: 700;
+}
+
+#expertise
+{
+	padding: 70px 0;
+	text-align: center;
+}
+
+#expertise h2
+{
+	font-size: 22px;
+	color: #413d4b;
+}
+
+#expertise h3
+{
+	font-size: 14px;
+	color: #2f2d35;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+#expertise span.line
+{
+	width: 50px;
+	height: 2px;
+	background: #c6c4c9;
+	display: inline-block;
+	margin: 20px auto 40px;
+	width: 50px;
+	height: 2px;
+	display: inline-block;
+	margin: 20px auto 40px;
+}
+
+#expertise .col-lg-4
+{
+	border-right: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
+}
+
+#expertise i
+{
+	padding: 30px 0;
+	background: -webkit-linear-gradient(#00e0d0, #4aa3cc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#expertise h5
+{
+	font-weight: 700;
+	color: #413d4b;
+}
+
+#expertise p
+{
+	margin-bottom: 35px;
+}
+
+.team
+{
+	background: url(../images/team.jpg) no-repeat center center;
+	display: block;
+	padding: 70px 0;
+	background-size: cover;
+	text-align: center;
+}
+
+.team h2
+{
+	font-size: 22px;
+	color: #fff;
+}
+
+.team h3
+{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+.team span.line
+{
+	width: 50px;
+	height: 2px;
+	background: #655b80;
+	display: inline-block;
+	margin: 20px auto 40px;
+}
+
+figure img
+{
+	width: 100%;
+	display: block;
+}
+
+figcaption
+{
+	border: 1px solid rgba(255,255,255,0.70);
+	padding: 20px 0;
+}
+
+figcaption h5
+{
+	color: #fff;
+	font-weight: 700;
+}
+
+figcaption p
+{
+	font-size: 13px;
+	color: rgba(255,255,255,0.70);
+}
+
+p.btm
+{
+	padding: 68px 0 25px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.team a, .load a
+{
+	width: 140px;
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 8px 0;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+.team a:hover
+{
+	background: #fff;
+	color: #000;
+	border: 1px solid #fff;
+	transition: all 0.5s;
+}
+
+.load a:hover
+{
+	background: #00e0d0;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: all 0.5s;
+}
+
+.our_works
+{
+	padding: 70px 0;
+}
+
+.our_works h2
+{
+	font-size: 22px;
+	color: #413d4b;
+}
+
+.our_works a
+{
+	text-align: right;
+	display: block;
+	color: #413d4b;
+	line-height: 26px;
+}
+
+.our_works a:hover
+{
+	color: #00e0d0;
+	transition: all 0.5s;
+}
+
+.our_works a i
+{
+	top: 3px;
+	position: relative;
+}
+
+.load
+{
+	padding: 70px 0;
+}
+
+.people_say
+{
+	background: url(../images/bg_peoplesay.jpg) no-repeat center center;
+	display: block;
+	padding: 70px 0;
+	background-size: cover;
+	text-align: center;
+}
+
+.item i
+{
+	color: #fff;
+}
+.item p
+{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 40px 0;
+}
+
+.people_say .bx-pager, .people_say .bx-wrapper .bx-controls-auto
+{
+	display: none;
+}
+
+.item h5
+{
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.item span
+{
+	font-size: 13px;
+	font-weight: 400;
+	color: #fff;
+	padding-bottom: 35px;
+	display: inline-block;
+}
+
+a.active img
+{
+	width: 64px;
+	height: auto;
+	margin: 0;
+	top: 10px;
+	position: relative;
+}
+
+.contact
+{
+	padding: 70px 0;
+}
+
+.contact input, .contact textarea
+{
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	padding: 10px;
+	color: #333;
+	outline: 0;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.contact textarea
+{
+	height: 160px;
+}
+
+.contact a.submit
+{
+	color: #00e0d0;
+	width: 120px;
+	font-family: 'Hammersmith One', sans-serif;
+	border: 1px solid #00e0d0;
+	display: block;
+	text-align: center;
+	padding: 8px 0;
+}
+
+.contact a.submit:hover
+{
+	background: #00e0d0;
+	color: #fff;
+	border: 1px solid #fff;
+	transition: all 0.5s;
+}
+
+.contact h2
+{
+	font-size: 22px;
+	color: #413d4b;
+	margin-bottom: 30px;
+}
+
+studio
+{
+	padding-bottom:15px;
+}
+
+footer
+{
+	background: url(../images/footer.jpg) no-repeat center center;
+	padding: 70px 0;
+	background-size: cover;
+	color: #fff;
+}
+
+footer h5
+{
+	margin-bottom: 30px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+footer input
+{
+	width: 210px;
+	border: 1px solid #e5e5e5;
+	outline: 0;
+	padding: 10px;
+	background: none;
+}
+
+footer a.sub
+{
+	width: 70px;
+	background: rgba(255,255,255,0.50);
+	border: 1px solid rgba(255,255,255,0.0);
+	padding: 3px 0 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer a.sub i
+{
+	color: #000;
+	position: relative;
+	top: 5px;
+}
+
+footer p
+{
+	color: #fff;
+}
+
+#bottom
+{
+	padding-top: 65px;
+}
+
+.socials
+{
+	padding-top:20px;
+}
+
+.socials a i
+{
+	width:35px;
+	border-radius:50%;
+	border:1px solid #fff;
+	margin-right:5px;
+	text-align:center;
+	color:#fff;
+	font-size:20px;
+	padding: 6px 0;
+}
+
+.socials a i:hover , footer a.sub:hover
+{
+	background: #00e0d0;
+	color: #fff;
+	border: 1px solid #00e0d0;
+	transition: all 0.5s;
+}
+
+footer ul li
+{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+footer ul li a
+{
+	color:#fff;
+	font-weight:400;
+}
+
+footer ul li a:hover , p.makeright a:hover
+{
+	color: #00e0d0;
+	transition: all 0.5s;
+}
+
+p.makeright
+{
+	text-align:right;
+}
+
+p.makeright a
+{
+	color:#fff;
+}
