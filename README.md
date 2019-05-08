@@ -2,4 +2,4 @@
 https://Daniil-Shylan.github.io/Site
 
 # Phonebook
-https://Daniil-Shylan.github.io/Phonebook
+https://Daniil-Shylan.github.io/PhoneBook
