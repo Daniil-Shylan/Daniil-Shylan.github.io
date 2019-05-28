@@ -1,0 +1,130 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+	background-color: #87CEFA;
+}
+nav{
+	padding:0px;
+	font-size:20px;
+}
+#Head,#head{
+	padding:0px;
+	margin:0px;
+}
+.fullWidth{
+	width:100%;
+	margin-top:10px;
+	margin-bottom:1px;
+	margin-left:0px;
+	margin-right:0px;
+	padding:0;
+	background-color: #B0E0E6;
+	border-radius:8px;
+	box-shadow:0px 0px 5px 1px #666666;
+}
+.withBTN{
+	margin-bottom:5px;
+}
+#counter{
+	width:16px;
+	height:16px;
+	background-color:#f00;
+	position:absolute;
+	right:0;
+	top:0;
+	font-size:8pt;
+	border:1px solid #fff;
+	color:#fff;
+	border-radius:50%;
+	text-align:center;
+}
+.nav-item{
+	position:relative;
+}
+@media screen and (max-width:768px){
+	#counter{
+		left:90px;
+	}
+	.right-L{
+		padding:2px;
+		background-color:#333;
+		border:1px solid gray;
+		border-radius:8px;
+		width:20%;
+		margin-left:40%;
+		text-align:center;
+	}
+	.collapsedButton{
+		text-align:center;
+	}
+}
+@media screen and (max-width:400px){
+	.right-L{
+		width:40%;
+		margin-left:20%;
+	}
+}
+@media screen and (min-width:768px){
+	.right-L{
+		position:absolute;
+		right:2%;
+		top:10%;
+		border:1px solid #0f0;
+		border-radius:8px;
+	}
+}
+.fullWidth2 {
+	width:100%;
+	margin-top:0px;
+	margin-bottom:1px;
+	margin-left:0px;
+	margin-right:0px;
+	padding:0;
+	background-color: #87CEFA;
+	border-radius:8px;
+}
+.fixedImg{
+	width:50px;
+	height:50px;
+}
+.adminBlocks{
+	border:1px solid #000;
+	border-radius:8px;
+	margin-top:15px;
+}
+.lins {
+	text-align: center;
+	margin-top: 20px;
+}
+.lins1 {
+}
+.M-bottom{
+	margin-bottom:9px;
+}
+.M-top{
+	margin-top:20px;
+}
+.cf 
+{
+    border: 1px solid #333;
+    border-radius: 15%;
+    display: inline-block;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: none;
+}
+
+.cf:hover 
+{
+    box-shadow: 0 0 1px 1px black;
+    background-color: ;
+    border-radius: 15%;
+}		
+.noPadding,#root{
+	padding:0;
+	margin:0;
+}
+
+		
